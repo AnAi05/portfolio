@@ -146,7 +146,7 @@ export default function Home() {
 								I help brands, code, read books, and do some other stuff.
 							</LinkToSection>
 							<LinkToSection title="School" href="school">
-								I studied computer science at RTMNU.
+								I studied computer science and engineering at RTMNU.
 							</LinkToSection>
 							<LinkToSection title="Work Experience" href="experience">
 								Currently working as a Jr. Performance Marketing Executive. Previously, I worked at GeeksforGeeks
