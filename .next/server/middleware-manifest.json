@@ -1,0 +1,62 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/middleware.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(.json)?[\\/#\\?]?$",
+          "originalSource": "/:path*"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "J3eSSSv5Ody2VESMuTzJm",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "dDk1Gw/FfJte14G7cvkC3mjZNKBkMdTZHsWZ+KzKl0A=",
+        "__NEXT_PREVIEW_MODE_ID": "7449f3d98a716ed5961e79bb517306c7",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "dc2e1ac7decd6430b3ad8046b304eddcb884fcd25ac98cb10ae267781dbd01ee",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "f632384b757b7dd3108533764523a76ab37f9f8d30dd7ad7a32cad755cf53214"
+      }
+    }
+  },
+  "functions": {
+    "/l/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/l/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/l/page.js"
+      ],
+      "name": "app/l/page",
+      "page": "/l/page",
+      "matchers": [
+        {
+          "regexp": "^/l$",
+          "originalSource": "/l"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "J3eSSSv5Ody2VESMuTzJm",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "dDk1Gw/FfJte14G7cvkC3mjZNKBkMdTZHsWZ+KzKl0A=",
+        "__NEXT_PREVIEW_MODE_ID": "7449f3d98a716ed5961e79bb517306c7",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "dc2e1ac7decd6430b3ad8046b304eddcb884fcd25ac98cb10ae267781dbd01ee",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "f632384b757b7dd3108533764523a76ab37f9f8d30dd7ad7a32cad755cf53214"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ]
+}
