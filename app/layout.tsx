@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 
 export const metadata = {
-	title: 'Om Jajulwar (anAI)'
+	title: 'anAI'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

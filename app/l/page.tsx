@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 import NewLinkForm from './NewLinkForm';
 
 export const metadata: Metadata = {
-	title: 'Link Shortener | Om Jajulwar',
+	title: 'Link Shortener | anAI',
 	robots: 'noindex'
 };
 

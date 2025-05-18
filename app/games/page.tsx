@@ -6,7 +6,7 @@ import { containerClasses, linkClasses, sectionBodyClasses } from 'components/st
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Games | Om Jajulwar',
+	title: 'Games | anAI',
 	robots: 'noinex'
 };
 

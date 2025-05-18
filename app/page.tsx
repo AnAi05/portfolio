@@ -138,24 +138,24 @@ export default function Home() {
 						</div>
 						
 						<SectionTitle big accentText="Hi there! I'm">
-							Om Jajulwar
+							anAI
 						</SectionTitle>
 						<div className="h-4 sm:h-0"></div>
 						<div className={sectionBodyClasses}>
 							<LinkToSection title="About Me" href="about">
-								I help brands, code, read books, and do some other stuff.
+								I help brands, code, and do some other stuff.
 							</LinkToSection>
 							<LinkToSection title="School" href="school">
-								I studied computer science and engineering at RTMNU.
+								I studied Computer Science and Engineering at RTMNU.
 							</LinkToSection>
 							<LinkToSection title="Work Experience" href="experience">
-								Currently working as a Jr. Performance Marketing Executive. Previously, I worked at GeeksforGeeks
+								Currently working as a Junior Performance Marketing Executive. Previously, I worked at GeeksforGeeks.
 							</LinkToSection>
 							<LinkToSection title="Projects" href="projects">
 								I'm currently working on campaign performance project and "innit" our IDE web platform.
 							</LinkToSection>
 							<LinkToSection title="Achievements" href="achievements">
-								Consistently honored on the prestigious Dean’s List in 2021 and 2022.
+								From running modest ad experiments to managing ₹1+ million in performance campaigns, it’s been a journey of learning, jugaad, and results.
 							</LinkToSection>
 						</div>
 						<div className="h-6 md:h-8 xl:h-16"></div>
@@ -188,8 +188,16 @@ export default function Home() {
 								Instagram
 							</a>{' '}
 							·{' '}
+							<a
+							className={fancyLinkClasses}
+							href="https://www.facebook.com/om.jajulwar/"
+							target="_blank"
+						>
+							Facebook
+						</a>{' '}
+						·{' '}
 						<a
-							className={linkClasses}
+							className={fancyLinkClasses}
 							href="https://x.com/fakira_ai"
 							target="_blank"
 						>
@@ -213,17 +221,28 @@ export default function Home() {
 					</SectionTitle>
 					<div className={sectionBodyClasses}>
 						<p>
-							Namaste! I’m anAI from Nagpur, India. I’ve always been
-							curious about how things work—whether it’s technology or what
-							makes people interested in a brand. With a degree in Computer
-							Science and Engineering, I found my passion in both data and marketing.
-							For me, data isn’t just numbers—it tells a story. I love spotting
-							patterns, understanding trends, and using insights to help brands grow.
-							Whether it’s improving campaigns or solving problems, I enjoy making smart,
-							data-driven decisions that create real impact.
+							Namaste! Born and raised in Nagpur, India,
+							with a curious mind that always wanted to
+							know how things work—whether it was a piece
+							of code or the reason behind someone clicking
+							on an ad. That curiosity led to a degree in
+							Computer Science and Engineering, and somewhere
+							along the way, a deep interest in data and marketing
+							began to take shape.
+						</p>
+
+						<p>
+							Numbers have never just been numbers. They tell
+							stories—of people, behavior, and decisions. There's
+							something fascinating about finding patterns hidden
+							in chaos and turning them into insights that actually
+							make a difference. Whether it’s improving a campaign or
+							solving a tricky problem, there’s real joy in using data
+							to drive smart, meaningful change.
 						</p>
 						<p>
-							Outside of work, I enjoy volunteering and getting lost in books, always eager to learn and explore.
+							Outside the screen and spreadsheets, time is often spent
+							volunteering or getting lost in a good book—always learning, always exploring.
 						</p>
 						<p>
 							Unleashing the Potential of Bits and Bytes!
@@ -236,7 +255,7 @@ export default function Home() {
 						Education
 					</SectionTitle>
 					<div className={sectionBodyClasses}>
-						<p>I was a student at RTMNU studied Computer Science.</p>
+						<p>Pursued Computer Science at RTMNU, where I discovered how logic, curiosity, and caffeine could build the future.</p>
 					</div>
 					<div className="h-8 lg:h-12"></div>
 					<div className="text-slate-400 sm:text-lg lg:text-xl leading-relaxed max-w-prose">
@@ -256,7 +275,7 @@ export default function Home() {
 							<li>Fundamentals of Statistics</li>
 							<li>Operating Systems Engineering</li>
 							<li>Natural Language Processing</li>
-							<li>Introduction to Low-level Programming in C and Assembly</li>
+							<li>Introduction to Python</li>
 							<li>Computation Structures</li>
 						</ul>
 					</div>
@@ -277,42 +296,42 @@ export default function Home() {
 						<div className="h-6 lg:h-10"></div>
 
 						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">
-							The Hype Capital &mdash; Aug - Oct 2024
+							The Hype Capital &mdash; Jan 2025 - Present
 						</h2>
 						<p>
-							I handle client accounts, interact with followers, and keep
-							social media engaging and up-to-date. I work with the team to
-							create fun and creative campaigns while tracking performance
-							and making improvements for the best results.
+							I manage client accounts and keep our social media buzzing with fresh,
+							engaging content. From sparking conversations with followers to
+							brainstorming creative campaigns with the team, I ensure every post
+							not only entertains but performs — tracking results, optimizing for
+							impact, and running data-driven performance marketing strategies to maximize ROI.
 						</p>
 
 						<div className="h-6 lg:h-10"></div>
 
 						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">
-							First Quadrant Labs &mdash; Aug - Oct 2024
+							First Quadrant Labs &mdash; Aug 2024 - Oct 2024
 						</h2>
 						<p>
-							As a Data Science Intern, I used tools like Python and
+							As a Data Science Intern, used tech stacks like Python and
 							TensorFlow to analyze data and create models that improved
 							efficiency by 15%. I made clear visual reports to find
-							patterns, boosting accuracy by 20%. I also helped launch
+							patterns, boosting accuracy by 20%. Also helped launch
 							and monitor AI models, reducing errors in real-time use.
 						</p>
 
 						<div className="h-6 lg:h-10"></div>
 
 						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">
-							Geeks for Geeks &mdash; Aug - Oct 2023
+							Geeks for Geeks &mdash; Aug 2023  - Oct 2023
 						</h2>
 						<p>
-							As a Front-End Intern, I worked with tools like HTML,
-							JavaScript, React, and MongoDB to manage and optimize
-							student enrollment databases, ensuring accurate and efficient
-							operations. I analyzed enrollment data to forecast future
-							course needs, helping with better resource planning.
-							Additionally, I collaborated with marketing and content
-							teams to align data insights with business goals, improving
-							teamwork and decision-making.
+							As a Front-End Intern, worked with tools like HTML, JavaScript,
+							React, and MongoDB to manage and optimize student enrollment
+							databases, ensuring accurate and efficient operations. Analyzed
+							enrollment data to forecast future course demand, contributing
+							to more effective resource planning. Collaborated closely with
+							marketing and content teams to align data insights with business 
+							objectives, leading to improved teamwork and more informed decision-making.
 						</p>
 
 						{/* <div className="h-6 lg:h-10"></div>
@@ -381,6 +400,16 @@ export default function Home() {
 							Instagram
 						</a>{' '}
 						·{' '}
+
+						<a
+							className={linkClasses}
+							href="https://www.facebook.com/om.jajulwar/"
+							target="_blank"
+						>
+							Facebook
+						</a>{' '}
+						·{' '}
+
 						<a
 							className={linkClasses}
 							href="https://x.com/fakira_ai"
@@ -405,7 +434,7 @@ export default function Home() {
 
 				<div className={`${containerClasses} pb-6 md:pb-12 lg:pb-24`}>
 					<div className="font-mono text-slate-400 text-xs md:text-sm lg:text-base">
-						Copyright {new Date().getFullYear()} OJ.
+						Copyright {new Date().getFullYear()} anAI.
 						<br />
 						This site is built with{' '}
 						<a className={linkClasses} href="https://nextjs.org/" target="_blank">
