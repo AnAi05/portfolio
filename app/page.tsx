@@ -206,7 +206,7 @@ export default function Home() {
 							·{' '}
 							<a
 								className={fancyLinkClasses}
-								href="./om_resume.pdf"
+								href="./resume.pdf"
 								target="_blank"
 							>
 								Resume
