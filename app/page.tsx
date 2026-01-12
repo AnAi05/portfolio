@@ -143,19 +143,19 @@ export default function Home() {
 						<div className="h-4 sm:h-0"></div>
 						<div className={sectionBodyClasses}>
 							<LinkToSection title="About Me" href="about">
-								I help brands, code, and do some other stuff.
+								I work with brands and code, while obsessing over sustainability, the human mind, and the deeper questions of life.
 							</LinkToSection>
 							<LinkToSection title="School" href="school">
-								I studied Computer Science and Engineering at RTMNU.
+								Studied Computer Science and Engineering.
 							</LinkToSection>
 							<LinkToSection title="Work Experience" href="experience">
-								Currently working as a Junior Performance Marketing Executive. Previously, I worked at GeeksforGeeks.
+								Previously worked as a Junior Performance Marketing Executive at The Hype Capital and earlier at GeeksforGeeks.
 							</LinkToSection>
 							<LinkToSection title="Projects" href="projects">
-								I'm currently working on campaign performance project and "innit" our IDE web platform.
+								Worked on campaign performance project and "innit" our IDE web platform.
 							</LinkToSection>
 							<LinkToSection title="Achievements" href="achievements">
-								From running modest ad experiments to managing ₹1+ million in performance campaigns, it’s been a journey of learning, jugaad, and results.
+								From running modest ad experiments to managing ₹1+ million in performance campaigns, it is been a journey of learning, jugaad, and results.
 							</LinkToSection>
 						</div>
 						<div className="h-6 md:h-8 xl:h-16"></div>
@@ -221,14 +221,15 @@ export default function Home() {
 					</SectionTitle>
 					<div className={sectionBodyClasses}>
 						<p>
-							Namaste! Born and raised in Nagpur, India,
-							with a curious mind that always wanted to
-							know how things work—whether it was a piece
-							of code or the reason behind someone clicking
-							on an ad. That curiosity led to a degree in
-							Computer Science and Engineering, and somewhere
-							along the way, a deep interest in data and marketing
-							began to take shape.
+							Namaste! I’m from Nagpur, India. I’ve always been 
+							curious about how things work. Growing up, I was 
+							especially into tech and loved figuring things out. 
+							That curiosity took me into Computer Science and Engineering, 
+							where I slowly moved from playing with lines of code to 
+							wondering why people click on ads. That’s how I found my 
+							way into data and marketing. Lately, I have also been exploring 
+							sustainability and how we can build things in a more thoughtful, 
+							responsible way.
 						</p>
 
 						<p>
@@ -242,7 +243,7 @@ export default function Home() {
 						</p>
 						<p>
 							Outside the screen and spreadsheets, time is often spent
-							volunteering or getting lost in a good book—always learning, always exploring.
+							volunteering or getting lost in a book—always learning, always exploring.
 						</p>
 						<p>
 							Unleashing the Potential of Bits and Bytes!
@@ -299,11 +300,15 @@ export default function Home() {
 							The Hype Capital &mdash; Jan 2025 - Jan 2026
 						</h2>
 						<p>
-							I manage client accounts and keep our social media buzzing with fresh,
-							engaging content. From sparking conversations with followers to
-							brainstorming creative campaigns with the team, I ensure every post
-							not only entertains but performs — tracking results, optimizing for
-							impact, and running data-driven performance marketing strategies to maximize ROI.
+							I spent most of my time running Meta ads and figuring out 
+							what actually makes people click and convert. From launching 
+							campaigns to testing different creatives and audiences, it was 
+							a constant loop of trying, learning, and improving. I’d watch 
+							the numbers closely — what was working, what wasn’t — and tweak 
+							things until the ads started performing better. Over time, it 
+							became less about just running ads and more about understanding 
+							people, using data to make smarter decisions, and helping brands 
+							get real results instead of just impressions.
 						</p>
 
 						<div className="h-6 lg:h-10"></div>
@@ -325,13 +330,13 @@ export default function Home() {
 							Geeks for Geeks &mdash; Aug 2023  - Oct 2023
 						</h2>
 						<p>
-							As a Front-End Intern, worked with tools like HTML, JavaScript,
+							As a Front End Intern, worked with tools like HTML, JavaScript,
 							React, and MongoDB to manage and optimize student enrollment
 							databases, ensuring accurate and efficient operations. Analyzed
 							enrollment data to forecast future course demand, contributing
 							to more effective resource planning. Collaborated closely with
 							marketing and content teams to align data insights with business 
-							objectives, leading to improved teamwork and more informed decision-making.
+							objectives, leading to improved teamwork and more informed decision making.
 						</p>
 
 						{/* <div className="h-6 lg:h-10"></div>
@@ -355,7 +360,7 @@ export default function Home() {
 						Projects
 					</SectionTitle>
 					<div className={sectionBodyClasses}>
-						<p>I'm always working on something new. Below are a few of my favorite projects!</p>
+						<p>I am always exploring new ideas, and below are some of the projects I have loved working on.</p>
 					</div>
 					<div className="h-8 lg:h-12"></div>
 					<ProjectsList />
