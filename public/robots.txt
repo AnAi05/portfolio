@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /om_resume.pdf
+Disallow: /om_jajulwar_resume.pdf
 Disallow: /games
 Disallow: /l
 

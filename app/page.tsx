@@ -206,7 +206,7 @@ export default function Home() {
 							·{' '}
 							<a
 								className={fancyLinkClasses}
-								href="./om_resume.pdf"
+								href="./om_jajulwar_resume.pdf"
 								target="_blank"
 							>
 								Resume
@@ -420,7 +420,7 @@ export default function Home() {
 						·{' '}
 							<a
 						className={linkClasses}
-							href="./om_resume.pdf"
+							href="./om_jajulwar_resume.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
