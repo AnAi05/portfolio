@@ -296,7 +296,7 @@ export default function Home() {
 						<div className="h-6 lg:h-10"></div>
 
 						<h2 className="text-slate-200 font-medium pb-1 lg:pb-1.5">
-							The Hype Capital &mdash; Jan 2025 - Present
+							The Hype Capital &mdash; Jan 2025 - Jan 2026
 						</h2>
 						<p>
 							I manage client accounts and keep our social media buzzing with fresh,
