@@ -1,7 +1,9 @@
 import '../styles/globals.css';
 
 export const metadata = {
-	title: 'anAI'
+  title: "Om Jajulwar | anAI – Sustainability, Marketing & Tech",
+  description:
+    "Portfolio of Om Jajulwar (anAI). Performance marketing, sustainability, climate interest, projects and contact.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
