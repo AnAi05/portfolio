@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/usaco-classes',
-        destination: 'https://anai.live/',
+        destination: 'https://anai.blog/',
         permanent: false,
       }
     ]
