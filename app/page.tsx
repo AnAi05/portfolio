@@ -182,7 +182,7 @@ export default function Home() {
 							·{' '}
 							<a
 								className={fancyLinkClasses}
-								href="https://www.instagram.com/agnyan.ai/"
+								href="https://www.instagram.com/anai.sees/"
 								target="_blank"
 							>
 								Instagram
@@ -198,7 +198,7 @@ export default function Home() {
 						·{' '}
 						<a
 							className={fancyLinkClasses}
-							href="https://x.com/fakira_ai"
+							href="https://x.com/anAI_119"
 							target="_blank"
 						>
 							X
@@ -399,7 +399,7 @@ export default function Home() {
 						·{' '}
 						<a
 							className={linkClasses}
-							href="https://www.instagram.com/agnyan.ai/"
+							href="https://www.instagram.com/anai.sees/"
 							target="_blank"
 						>
 							Instagram
@@ -417,7 +417,7 @@ export default function Home() {
 
 						<a
 							className={linkClasses}
-							href="https://x.com/fakira_ai"
+							href="https://x.com/anAI_119"
 							target="_blank"
 						>
 							X
